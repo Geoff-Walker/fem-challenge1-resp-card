@@ -74,6 +74,15 @@ main {
     }
 
 
+        @media screen and (max-width: 330px) {
+        .card {
+        width: 250px;
+        height: 100%;
+        margin: 4rem auto 4rem auto;
+        }
+        }
+
+
     .text-block {
         flex: 0 0 50%;
     }
@@ -106,6 +115,15 @@ main {
             flex: none;
         }
     }
+
+    @media screen and (max-width: 330px) {
+        .image-block {
+            height: 330px;
+            width: 100%;
+            flex: none;
+        }
+}
+    
 
 
     
